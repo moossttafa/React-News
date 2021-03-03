@@ -2,7 +2,7 @@ import React from "react";
 import "./NewsCard.css";
 
 export const NewsCard = ({ newsItem }) => {
-  console.log(newsItem);
+//  console.log(newsItem);
 
   return (
     <div className="newsCard">

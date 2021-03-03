@@ -24,7 +24,7 @@ function App() {
       console.log(error);
     }
   };
-  console.log(newsArray);
+  //console.log(newsArray);
   useEffect(() => {
     newsApi();
   }, [newsResults,  categories ,loadMore])
